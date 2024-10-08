@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="images/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>همکاری با شرکت</title>
+  <link rel="stylesheet" href="style/main.css" />
+  <link rel="stylesheet" href="style/responsive.css" />
+</head>
+
+<body>
+  <header class="single-header">
+    <section class="single-intro">
+      <div class="container">
+        <div class="mobile-menu main-theme" id="mobile-menu">
+          <button class="close d-flex" id="close">
+            <img src="images/svg/x-mark.svg" alt="close-mark" />
+          </button>
+          <img src="images/png/logo.png" alt="brand" class="mobile-brand" />
+          <input type="text" placeholder="جستجو..." />
+          <h3>منو دسترسی</h3>
+          <ul>
+            <li>
+              <a href="index.html"><img src="images/png/sort-left.png" alt="" /> خانه</a>
+            </li>
+            <li>
+              <a href="index.html#our-story"><img src="images/png/sort-left.png" alt="" /> معرفی شرکت</a>
+            </li>
+            <li>
+              <a href="index.html#services"><img src="images/png/sort-left.png" alt="" /> خدمات</a>
+            </li>
+            <li>
+              <a href="index.html#projects"><img src="images/png/sort-left.png" alt="" /> پروژه ها</a>
+            </li>
+            <li>
+              <a href="index.html#article"><img src="images/png/sort-left.png" alt="" /> مقالات</a>
+            </li>
+            <li>
+              <a href="contract.html"><img src="images/png/sort-left.png" alt="" /> قراردادها</a>
+            </li>
+            <li>
+              <a href="job.html"><img src="images/png/sort-left.png" alt="" /> همکاری</a>
+            </li>
+          </ul>
+        </div>
+        <nav class="intro-nav">
+          <div class="toggle-menu d-flex our-story-service" id="toggle-menu">
+            <img src="images/svg/bars.svg" alt="menu" />
+          </div>
+          <div class="brand-logo">
+            <img src="images/png/logo.png" alt="brand" />
+          </div>
+          <ul class="header-menu">
+            <li><a href="index.html">خانه</a></li>
+            <li><a href="index.html#our-story">معرفی شرکت</a></li>
+            <li><a href="index.html#services">خدمات</a></li>
+            <li><a href="index.html#projects">پروژه ها</a></li>
+            <li><a href="index.html#article">مقالات</a></li>
+            <li><a href="contract.html">قراردادها</a></li>
+            <li><a href="job.html">همکاری</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <section class="banner">
+      <img src="images/svg/connectdevelop-brands.svg" alt="connectdvelop" />
+    </section>
+  </header>
+  <main class="job-main">
+    <div class="container">
+      <header>فرم همکاری</header>
+      <div class="form-outer">
+        <form action="action.php" method="POST" class="job-form">
+          <div class="error main-error">فرم را تکمیل کنید *</div>
+          <div class="field">
+            <div class="label">نام</div>
+            <input type="text" name="firstname" class="" />
+            <div class="error error-1">لطفا فیلد را پر نمایید</div>
+            <div class="error error-2">لطفا فیلد را به درستی پر نمایید</div>
+          </div>
+          <div class="field">
+            <div class="label">نام خانوادگی</div>
+            <input type="text" id="lastname" name="lastname" />
+            <div class="error error-3">لطفا فیلد را پر نمایید</div>
+            <div class="error error-4">لطفا فیلد را به درستی پر نمایید</div>
+          </div>
+          <div class="field">
+            <div class="label">ایمیل</div>
+            <input type="text" id="email" name="email" />
+            <div class="error error-5">لطفا فیلد را پر نمایید</div>
+            <div class="error error-6">لطفا فیلد را به درستی پر نمایید</div>
+          </div>
+          <div class="field">
+            <div class="label">شماره تلفن</div>
+            <input type="text" id="phone" name="phone" />
+            <div class="error error-7">لطفا فیلد را پر نمایید</div>
+            <div class="error error-8">لطفا فیلد را به درستی پر نمایید</div>
+          </div>
+          <div class="field">
+            <div class="label">جنسیت</div>
+            <select id="gender" name="gender">
+              <option value="male">مرد</option>
+              <option value="female">زن</option>
+            </select>
+          </div>
+          <div class="field btns">
+            <button class="exitBtn" ><a href="index.html">خروج</a></button>
+            <button class="submit" type="submit">ارسال</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <section class="footer-content">
+        <div class="our-work-hour">
+          <h4>ساعت کار</h4>
+          <p>
+            شرکت عمران ایزو بصورت 24 ساعت شبانه روز بصورت آنلاین ، هفت روز
+            هفته در خدمت شما می باشد.
+          </p>
+          <ul class="hours">
+            <li>
+              شنبه تا چهارشنبه:
+              <span>7 صبح تا 5 عصر</span>
+            </li>
+            <li>
+              پنج شنبه و جمعه:
+              <span>تعطیل</span>
+            </li>
+          </ul>
+        </div>
+        <div class="fast-access">
+          <h4>پیوستن به خبرنامه</h4>
+          <div class="newsletter">
+            <input type="text" placeholder="ایمیل شما" />
+            <a class="news-btn">عضویت</a>
+          </div>
+        </div>
+        <div class="footer-about-us">
+          <h4>درباره شرکت</h4>
+          <p>
+            شرکت فنی و مهندسی عمران ایزو در سال ۱۳۸۰ فعالیت خود را آغاز نموده
+            است. این شرکت در زمینه ارائه خدمات عمرانی شهری با اتکا به مجوزها و
+            گواهینامه‌های رسمی خود فعالیت می‌نماید. رسالت اصلی این مجموعه تلاش
+            برای ترویج معماری نوین در کشور است.
+          </p>
+          <div class="social-media">
+            <ul>
+              <li><img src="images/svg/facebook.svg" alt="facebook" /></li>
+              <li><img src="images/svg/instagram.svg" alt="instagrsm" /></li>
+              <li><img src="images/svg/linkedin.svg" alt="linkedin" /></li>
+              <li><img src="images/svg/twitter.svg" alt="twitter" /></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="js/validate.js"></script>
+  <script>
+    //mobile-menu script
+    var open_btn = document.getElementById("toggle-menu");
+    var close_btn = document.getElementById("close");
+    var mobileMenu = document.getElementById("mobile-menu");
+    var Body = document.getElementsByTagName("body")[0];
+    open_btn.addEventListener("click", function() {
+        mobileMenu.style.right = "0px";
+        Body.style.position = "fixed";
+      }),
+      close_btn.addEventListener("click", function() {
+        mobileMenu.style.right = "-100%";
+        Body.style.position = "sticky";
+      });
+  </script>
+
+</body>
+
+</html>

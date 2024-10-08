@@ -1,0 +1,343 @@
+/* ######### styles for responsive website ########## */
+/* -------styles for mobile phones-------- */
+@media screen and (min-width: 300px) {
+  .intro-nav {
+    padding: 20px 10px;
+  }
+  .intro-desc h1 {
+    font-size: 7vw;
+  }
+  .intro-desc span {
+    font-size: 5vw;
+  }
+  .our-story-video {
+    width: 100%;
+  }
+  .our-story-content {
+    width: 100%;
+    padding: 0;
+  }
+  .tab-menu {
+    width: 100%;
+  }
+  .tabs-list li {
+    width: 100%;
+  }
+  .tabs-wrapper .tab-item .tab-item-content img {
+    width: 100%;
+  }
+  .tabs-wrapper .tab-item .tab-item-content p {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .about-team {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .about-team-item {
+    width: 45%;
+    margin: 20px 0;
+    height: 170px;
+  }
+  .post {
+    width: 100%;
+    margin: 10px auto;
+  }
+  #partner ul li {
+    width: 45%;
+    margin: 10px auto;
+  }
+  .footer-content div {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .social-media ul {
+    width: 80%;
+    justify-content: space-between;
+    margin: 20px auto;
+  }
+  .single-main .main-content {
+    width: 100%;
+  }
+  aside {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .single-main .main-content .main-title {
+    padding-bottom: 0;
+  }
+  .single-main .main-content .main-title .title-pill {
+    width: 80%;
+    margin: auto;
+  }
+  .single-main .main-content .main-title .date {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+/* --------styles for tablets-------- */
+@media screen and (min-width: 576px) {
+  .intro-nav {
+    padding: 20px 40px;
+  }
+  .intro-desc h1 {
+    font-size: 5vw;
+  }
+  .intro-desc span {
+    font-size: 3vw;
+  }
+  .mobile-menu {
+    width: 50%;
+  }
+  .our-story-video {
+    width: 90%;
+  }
+  .our-story-content {
+    width: 90%;
+  }
+  .tab-menu {
+    width: 90%;
+    margin: auto;
+  }
+  .about-title {
+    width: 90%;
+    margin: auto;
+  }
+  .about-team {
+    width: 90%;
+    margin: 20px auto;
+    justify-content: center;
+  }
+  .about-team-item {
+    height: 200px;
+    width: 40%;
+    margin: 20px;
+  }
+  #projects .section-title {
+    width: 90%;
+    margin: auto;
+  }
+  .swiper {
+    width: 90%;
+  }
+  #article .section-title {
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+  .article-post {
+    width: 90%;
+    margin: auto;
+  }
+  .post {
+    width: 48%;
+  }
+  #partner ul {
+    width: 90%;
+    margin: auto;
+  }
+  .footer-content div {
+    width: 90%;
+  }
+  .single-main .main-content {
+    width: 90%;
+    margin: auto;
+  }
+  aside {
+    width: 90%;
+    margin: 30px auto 0 auto;
+  }
+  .job-main .container {
+    padding: 50px 70px;
+  }
+}
+/* ---------styles for large tablets--------- */
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+  .toggle-menu {
+    display: none;
+  }
+  .header-menu {
+    display: flex;
+  }
+  .header-menu li {
+    font-size: 1.9vw;
+    margin: 0 19px;
+  }
+  .intro-desc h1 {
+    font-size: 4.5vw;
+  }
+  .our-story-content-item div {
+    width: 30%;
+  }
+  .our-story-video {
+    width: 80%;
+  }
+  .tabs-list li {
+    width: 20%;
+    margin: 0;
+  }
+  .tabs-wrapper .tab-item .tab-item-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tabs-wrapper .tab-item .tab-item-content img {
+    width: 50%;
+  }
+  .tabs-wrapper .tab-item .tab-item-content p {
+    width: 45%;
+  }
+  .about-team {
+    justify-content: space-between;
+  }
+  .about-team-item {
+    width: 30%;
+    height: 200px;
+    margin: 10px 0;
+  }
+  #partner ul li {
+    width: 24%;
+  }
+  .footer-content div {
+    width: 80%;
+  }
+  .social-media {
+    width: 100% !important;
+    margin: 0;
+  }
+  .single-main .main-content {
+    width: 90%;
+    margin: auto;
+  }
+  .single-main .main-content .main-title {
+    padding-bottom: 10px;
+  }
+  .single-main .main-content .main-title .title-pill {
+    width: 30%;
+    margin: 0;
+  }
+  .single-main .main-content .main-title .date {
+    width: 30%;
+    margin: 0;
+  }
+  aside {
+    width: 90%;
+    margin: 30px auto 0 auto;
+  }
+  .job-main .container {
+    width: 60%;
+  }
+}
+/* ------styles for small computers--------- */
+@media screen and (min-width: 992px) {
+  .header-menu li {
+    font-size: 1.7vw;
+  }
+  .intro-desc h1 {
+    font-size: 4vw;
+  }
+  .intro-desc span {
+    font-size: 2.5vw;
+  }
+  #our-story .container .d-flex {
+    justify-content: space-between;
+  }
+  .our-story-video {
+    width: 40%;
+    margin: 0;
+  }
+  .our-story-content {
+    width: 50%;
+    margin: 0;
+  }
+  .our-story-content-title p {
+    line-height: 2.5em;
+  }
+  .our-story-content-item div {
+    width: 24%;
+    height: 120px;
+  }
+  .tab-menu {
+    width: 100%;
+  }
+  .tabs-wrapper .tab-item .tab-item-content img {
+    width: 40%;
+  }
+  .tabs-wrapper .tab-item .tab-item-content p {
+    width: 55%;
+  }
+  .about-title {
+    width: 40%;
+    margin: 0;
+  }
+  .about-title p {
+    padding: 0;
+  }
+  .about-team {
+    width: 55%;
+    margin: 0;
+  }
+  .about-team-item {
+    height: 200px;
+  }
+  .about-team-item:hover .about-slide {
+    bottom: 0;
+  }
+  #projects .section-title {
+    width: 100%;
+  }
+  .swiper {
+    width: 100%;
+  }
+  #article .section-title {
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+  .article-post {
+    width: 100%;
+  }
+  .post {
+    width: 32%;
+    margin: 0;
+  }
+  #partner ul {
+    width: 100%;
+  }
+  .footer-content div {
+    width: 32%;
+    margin: 0;
+  }
+  .single-main .main-content {
+    width: 60%;
+  }
+  aside {
+    width: 35%;
+    margin-top: 0;
+  }
+  .job-main .container {
+    width: 40%;
+  }
+}
+/* ---------styles for large computers------------- */
+@media screen and (min-width: 1200px) {
+  .header-menu li {
+    font-size: 1.4vw;
+    margin: 0 30px;
+  }
+  .intro-desc span {
+    font-size: 2.3vw;
+  }
+  .our-story-content-item div {
+    width: 23%;
+  }
+  .about-title {
+    width: 40%;
+    margin: 0;
+  }
+  .about-team-item {
+    height: 180px;
+    width: 23%;
+  }
+}
